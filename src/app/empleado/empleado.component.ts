@@ -24,8 +24,8 @@ export class EmpleadoComponent {
 
   //metodo llamaEmpresa
 
-  llamaEmpresa(value:String){
-
-  }
+  //llamaEmpresa(value:String){
+//
+  //}
 
 }
