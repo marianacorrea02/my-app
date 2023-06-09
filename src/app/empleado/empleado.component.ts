@@ -27,5 +27,5 @@ export class EmpleadoComponent {
   //llamaEmpresa(value:String){
 //
   //}
-
+enableProperti = false;
 }
