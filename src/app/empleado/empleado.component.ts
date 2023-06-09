@@ -28,4 +28,8 @@ export class EmpleadoComponent {
 //
   //}
 enableProperti = false;
+userRegister = false;
+getRegisterUser(){
+  this.userRegister = true;
+}
 }
