@@ -30,6 +30,9 @@ export class EmpleadoComponent {
 enableProperti = false;
 userRegister = false;
 getRegisterUser(){
-  this.userRegister = true;
+  this.userRegister = false;
+}
+serRegisterUser(){
+  alert("El usuario se registro correctamente")
 }
 }
