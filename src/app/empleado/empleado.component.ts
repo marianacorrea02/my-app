@@ -29,10 +29,12 @@ export class EmpleadoComponent {
   //}
 enableProperti = false;
 userRegister = false;
+textoRegistro = "no hay nadie registrado"
 getRegisterUser(){
   this.userRegister = false;
 }
 serRegisterUser(){
-  alert("El usuario se registro correctamente")
+  //alert("El usuario se registro correctamente")
+  this.textoRegistro = "El usuario se registro correctamente";
 }
 }
