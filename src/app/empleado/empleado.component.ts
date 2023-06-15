@@ -29,12 +29,19 @@ export class EmpleadoComponent {
   //}
 enableProperti = false;
 userRegister = false;
-textoRegistro = "no hay nadie registrado"
+textoRegistro = "no hay nadie registrado";
 getRegisterUser(){
   this.userRegister = false;
 }
-serRegisterUser(){
+serRegisterUser(event:Event){
   //alert("El usuario se registro correctamente")
-  this.textoRegistro = "El usuario se registro correctamente";
+  //this.textoRegistro = "El usuario se registro correctamente";
+  
+  //transforma el tipo evento a html
+  if((<HTMLInputElement>event.target).value == "si"){
+    this.textoRegistro = "El usuario se registro correctamente";
+  }else{
+    this.textoRegistro = "Usuario no registrado";
+  }
 }
 }
